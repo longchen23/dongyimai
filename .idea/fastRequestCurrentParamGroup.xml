@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCurrentParamGroup">
+    <option name="className" value="com.offcn.order.controller.PayLogController" />
+    <option name="method" value="findPayLogByList" />
+    <option name="methodDescription" value="显示支付日志列表，实现按日期、状态、用户进行查询。" />
+    <option name="module" value="dongyimai-order-service" />
+    <option name="originUrl" value="/payLog/findPayLogByList" />
+    <option name="requestParamMap">
+      <map>
+        <entry key="payTime">
+          <value>
+            <Object />
+          </value>
+        </entry>
+        <entry key="tradeState">
+          <value>
+            <Object />
+          </value>
+        </entry>
+        <entry key="userId">
+          <value>
+            <Object />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="url" value="/payLog/findPayLogByList" />
+  </component>
+</project>

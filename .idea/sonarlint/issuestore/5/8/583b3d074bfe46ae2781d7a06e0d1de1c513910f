@@ -1,0 +1,17 @@
+
+h
+java:S3776t"RRefactor this method to reduce its Cognitive Complexity from 61 to the 15 allowed.(ò•â¥
+W	java:S125œ"<This block of commented-out lines of code should be removed.(ŽÆø’üÿÿÿÿ
+R	java:S125±"<This block of commented-out lines of code should be removed.(èˆßé
+>
+java:S1128"(Remove this unused import 'feign.Feign'.(Í…—á
+9
+java:S1128"Remove this duplicated import.(¡ž¸Îùÿÿÿÿ
+9
+java:S1128"Remove this duplicated import.(–ª¡Çøÿÿÿÿ
+4
+java:S1128"Remove this duplicated import.(¼º¡Ú
+n
+java:S1128"SRemove this unused import 'org.springframework.transaction.annotation.Propagation'.(èª¡Çûÿÿÿÿ
+p
+java:S1128"URemove this unused import 'org.springframework.transaction.annotation.Transactional'.(ðùçøùÿÿÿÿ

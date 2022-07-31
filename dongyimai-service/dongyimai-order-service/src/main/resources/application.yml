@@ -1,0 +1,58 @@
+server:
+  port: 9008
+spring:
+  application:
+    name: order
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+  datasource:
+    url: jdbc:mysql://192.168.235.129:3306/dongyimaidb?useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      min-idle: 5 #最小连接数
+      max-active: 20 #最大连接数
+      max-wait: 60000 #最大等待连接时间
+  redis:
+    host: 192.168.235.129
+    port: 6379
+  main:
+    allow-bean-definition-overriding: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 5 # 每隔5秒发送一次心跳
+    lease-expiration-duration-in-seconds: 10 # 10秒不发送就过期
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port}
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 5000  #连接超时时间5秒
+        readTimeout: 5000     #读超时时间5秒
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true  #开启驼峰式编写规范
+  type-aliases-package: com.offcn.order.pojo
+# 配置sql打印日志
+logging:
+  level:
+    com:
+      offcn: debug
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+          strategy: SEMAPHORE

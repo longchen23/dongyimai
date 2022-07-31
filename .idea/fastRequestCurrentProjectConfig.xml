@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCurrentProjectConfig">
+    <option name="cookieList">
+      <list>
+        <DataMapping>
+          <option name="type" value="http://localhost:8001/api/user/login" />
+          <option name="value" value="Authorization=eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3NTVlNzk1ZS00MmYzLTQxM2ItOTRkZS04YTZmZjZkMGM3NTEiLCJzdWIiOiJ7XCJyb2xlXCI6XCJVU0VSXCIsXCJzdWNjZXNzXCI6XCJTVUNDRVNTXCIsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJpc3MiOiJhZG1pbiIsImlhdCI6MTY1ODIyNjY0OSwiZXhwIjoxNjU4MjMwMjQ5fQ.ivupIKQHQQbxDGWT1qnDzr3_XScZctiJ5mPb9ZCWeOc; Path" />
+        </DataMapping>
+      </list>
+    </option>
+    <option name="domain" value="http://localhost:8001/api/user/login" />
+    <option name="enableEnv" value="java8" />
+    <option name="enableProject" value="test" />
+  </component>
+</project>

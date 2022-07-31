@@ -1,0 +1,77 @@
+spring:
+  application:
+    name: GATEWAY-WEB
+  cloud:
+    gateway:
+      globalcors: #全局跨域
+        corsConfigurations: #跨域配置
+          '[/**]': #任意请求
+            allowedOrigins: "*" #允许任意域
+            allowedMethods: #允许任意请求方式
+              - GET
+              - POST
+              - PUT
+              - DELETE
+      routes:
+        - id: dongyimai_sellergoods_route
+          #uri: http://localhost:9001 #真实访问请求路径
+          uri: lb://SELLERGOODS #实现负载均衡访问，注意：网关必须注册到注册中心
+          predicates:
+            #- Host=cloud.ujiuye.com** #统一访问请求路径
+            #- Path=/brand** #统一访问请求路径
+            #- Path=/**
+            #- Path=/api/brand
+            - Path=/api/brand**
+          filters:
+            #- PrefixPath=/brand #提供路径安全性
+            #- StripPrefix=1
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+            - name: RequestRateLimiter
+              args:
+                key-resolver: "#{@ipKeyResolver}"
+                redis-rate-limiter.replenishRate: 1 #每秒钟只处理1个请求
+                redis-rate-limiter.burstCapacity: 1 #令牌桶只存一个令牌
+        - id: dongyimai_user_route
+          uri: lb://USER
+          predicates:
+            - Path=/api/user/**,/api/address/**,/api/areas/**,/api/cities/**,/api/provinces/**
+          filters:
+            - StripPrefix=1
+        #购物车微服务
+        - id: dongyimai_order_route
+          uri: lb://ORDER
+          predicates:
+            - Path=/api/cart/**,/api/order/**,/api/orderItem/**
+          filters:
+            - StripPrefix=1
+        #支付微服务
+        - id: dongyimai_pay_route
+          uri: lb://PAY
+          predicates:
+            - Path=/api/pay/**
+          filters:
+            - StripPrefix=1
+        #支付微服务
+        - id: dongyimai_paylog_route
+          uri: lb://PAYLOG
+          predicates:
+            - Path=/api/payLog/**
+          filters:
+            - StripPrefix=1
+        #秒杀微服务
+        - id: dongyimai_seckill_route
+          uri: lb://SECKILL
+          predicates:
+            - Path=/api/seckillOrder/**,/api/seckillGoods/**
+          filters:
+            - StripPrefix=1
+  redis:
+    host: 192.168.235.129
+    port: 6379
+server:
+  port: 8001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+

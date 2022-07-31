@@ -1,0 +1,63 @@
+server:
+  port: 9009
+spring:
+  application:
+    name: pay
+  redis:
+    host: 192.168.235.129
+    port: 6379
+  rabbitmq:
+    host: 192.168.235.129
+    username: guest
+    password: guest
+  main:
+    allow-bean-definition-overriding: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 5000  #连接超时时间5秒
+        readTimeout: 5000     #读超时时间5秒
+# 配置sql打印日志
+logging:
+  level:
+    com:
+      offcn: debug
+#hystrix 配置
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          #如果enabled设置为false，则请求超时交给ribbon控制
+          enabled: true
+        isolation:
+          strategy: SEMAPHORE
+
+#支付宝支付信息配置
+alipay:
+  serverUrl: https://openapi.alipaydev.com/gateway.do
+  appId: 2021000121633224
+  privateKey: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCh+2LR5VbRdVMD+Bm+KPeFAEv3uhllNtW+4F0rk42yMwr1rZ7biKue0vAYMcfGtu2LV96TVxZhT0rD7yNCZziVT3urT3xRoYSf9SYQJ28YkOPk3/YQaK00TSsnwfVpDDpG0UZ8B7oQQmMq+FqZwMRH5UZvj+5h8jtty2FhvtSxiGh4WSnhsjR8XZ93F4P2FGt5KisX5shziYC6gQlvabPAiUaBwkaVrkByeE76OQWIWjdAADAPnp3BJIkZuBA8tb2dufViLOTihzVPuccOaLCSfl+kK+mNYMkNERt8OFrJgKxrNZIsjdWrfxtzg3yxSyn+d6axmG1IbTTSGFfQLTiBAgMBAAECggEAdD4KGaTiW+g9TfDi0HNnxZuD6OA1T0w9sgAi/J2kJwi4Sbxx7wuyVYT85e/7dOBbsg653LS3i9eySM+5VvLqSURD9JlTFuW5Xm04Bom2EUQRN3N9iyMDgTAL0zk+20b6H04ZrfKBlR9/ORwHMKWEdi/UD0WUBdgmy9ETLmkbC9c6m6eonrk0pjd7HYK8/9mxfNuDTtivd6Eq5rV3Jr5Dr+vy6rG2XegUOmUhwlaQqnrzNzPx2RI+GBMkBxlY2UTgWkaGi7knzkyWTtZLp9slL+JAnRFS4VDvIKlLQ4kwbuuhPp8C4b8bRPsKhcwvtgQMhalmiPcznTT8IzYaOEYtnQKBgQDXgZCyUnysedxqvGuL628JqyFI7yAKAKAJwbyg6bOZbMpEcZNOacKMTLCT6b4UPXk1X20zUCbssOsyzZ3pqbn53KFRDRngMjfYP2MI4AEvGnhJqsJ3nW8QOY4+o2HlYEgubxQ+WSquTESL7IMcYiHCHKIZ/T+TwOu4dPIcjE/VNwKBgQDAaym/KbGsOKGhIYRHlegwtZ3NtQgjFjoSCfBGpIBZRYDR9qP1zkuA7J/bugCHrW+Zex39kHcBQa9qkQcPxOea5Ca4FDbrPTuYjOocIsXzZpNr9uiJ/45vbTbojmpjnzpaUc4Xqyl40B0s6HKSeQsNLY4iLyReVg/RkijXhua8BwKBgCqJoI4SShmhVCidWH0d06UM6l0DFkfjJ7PFUf5RIuo91w77fCAWMBiRaqlHkgVcvPgUBfIC+CvwH/y/KVRd9B+ltRHSjDD8uJkuqdWuoY0ypFumIQyLPsjtE265wTENeDHyKwTDhPEyjLUx0g9gL1mpXTXUDyCTC/Q04TVRXNCxAoGBAJuA/4gCRhiM2/LAh4ri13cmD5YDS8QvXlbduVUd9Kwww17sGK26PsK+eKK2u17rB1neaepWKhbV4tIYysAvvY0r/S6fB5MtNVCf8UMzxw5iQ5npPRzpb08V0F45WjmQoTQFEK2IIkgEyM9WO+Gr+QZ5Xni56IZkvvv7Rw6Hc0lZAoGBAKMP2ilUGl5ZOXu5aHgJ6l+6gXFAyM/zHodcjKeGS0bMu1HfDz7OpCYOG3ih3XzsL6hZnVqK2tdzzZnS2Kg0Hg6ij0YlC8qdXcWS/fcNKhiXbGm2ZcKK5V8MjUmmlJ0x+8HWEvHrEJxQPFKNenR7Gjm9bMMC73xx6xUccE9+MleT
+  format: json
+  charset: utf-8
+  alipayPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqBNS0SJC18BDWA/kBkGQ8C5D6+vsQnM54MkNTfWxPUi8hD8xQLgtXd5ZoFXn3PitRsGGH4vLMZ4MTQStVw39xItmtLao+xUeRC8/TfJckTmwD8nuG6vPzSfzpHVkyDI84xYyOPyBbewzQwvNLQr7gDdC4AqFP/Kk0BpfPcn0w4KZTV3JNGKHNoSHTZYTrttBhd5OPbhpvf0XNqAmNXveBO4ZdKYBDZLsX5O1FhsiEWHeckUmmc8gnsheqafmKgz+/RLi02Y/Dd1O3BG7U2SOlEL9Gmvf6XoDf5CV1qIBxpH1ABT+zEk/K6HsFmI4ewXA4LNo5FuPGUq9wpdWpQvhmwIDAQAB
+  signType: RSA2
+  notify-url: http://longchen.free.svipss.top/pay/notify/url
+#位置支付交换机和队列
+mq:
+  pay:
+    exchange:
+      seckillorder: exchange.seckillorder
+    queue:
+      seckillorder: queue.seckillorder
+    routing:
+      seckillorder: queue.seckillorder

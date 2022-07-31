@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ElasticsearchConfiguration">
+    <option name="clusterConfigurations">
+      <map>
+        <entry key="52da155a-7b5e-4a3c-8579-d59a4abc3a71">
+          <value>
+            <P>
+              <option name="id" value="52da155a-7b5e-4a3c-8579-d59a4abc3a71" />
+              <option name="label" value="docker@localhost" />
+              <option name="url" value="http://192.168.235.129:9200" />
+            </P>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="requestHistory">
+      <map>
+        <entry key="52da155a-7b5e-4a3c-8579-d59a4abc3a71" value="W3sicGF0aCI6Ii9za3VpbmZvL19zZWFyY2giLCJib2R5Ijoie1xuICBcImZyb21cIjogMCxcbiAgXCJzaXplXCI6IDIwLFxuICBcInF1ZXJ5XCI6IHtcbiAgICBcIm1hdGNoX2FsbFwiOiB7fVxuICB9XG59IiwibWV0aG9kIjoiR0VUIn0seyJwYXRoIjoiL3NrdWluZm8vX3NlYXJjaCIsImJvZHkiOiJ7XG4gIFwiZnJvbVwiOiAwLFxuICBcInNpemVcIjogMjAsXG4gIFwicXVlcnlcIjoge1xuICAgIFwiYm9vbFwiOiB7XG4gICAgICBcImZpbHRlclwiOiB7XG4gICAgICAgIFwiYm9vbFwiOiB7XG4gICAgICAgICAgXCJtaW5pbXVtX3Nob3VsZF9tYXRjaFwiOiAxLFxuICAgICAgICAgIFwic2hvdWxkXCI6IFtcbiAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgXCJtdWx0aV9tYXRjaFwiOiB7XG4gICAgICAgICAgICAgICAgXCJsZW5pZW50XCI6IHRydWUsXG4gICAgICAgICAgICAgICAgXCJmaWVsZHNcIjogXCIqXCIsXG4gICAgICAgICAgICAgICAgXCJxdWVyeVwiOiBcIuS4ieaYn1wiLFxuICAgICAgICAgICAgICAgIFwidHlwZVwiOiBcImJlc3RfZmllbGRzXCJcbiAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgfVxuICAgICAgICAgIF0sXG4gICAgICAgICAgXCJfbmFtZVwiOiBcIktRTF9maWx0ZXJcIlxuICAgICAgICB9XG4gICAgICB9LFxuICAgICAgXCJtdXN0XCI6IHtcbiAgICAgICAgXCJtYXRjaF9hbGxcIjoge31cbiAgICAgIH1cbiAgICB9XG4gIH0sXG4gIFwiaGlnaGxpZ2h0XCI6IHtcbiAgICBcInByZV90YWdzXCI6IFtcbiAgICAgIFwiQHBsdWdpbi1oaWdobGlnaHRlZC1maWVsZEBcIlxuICAgIF0sXG4gICAgXCJwb3N0X3RhZ3NcIjogW1xuICAgICAgXCJAL3BsdWdpbi1oaWdobGlnaHRlZC1maWVsZEBcIlxuICAgIF0sXG4gICAgXCJmaWVsZHNcIjoge1xuICAgICAgXCIqXCI6IHt9XG4gICAgfSxcbiAgICBcImZyYWdtZW50X3NpemVcIjogMjE0NzQ4MzY0N1xuICB9XG59IiwibWV0aG9kIjoiR0VUIn0seyJwYXRoIjoiL3NrdWluZm8vX3NlYXJjaCIsImJvZHkiOiJ7XG4gIFwiZnJvbVwiOiAwLFxuICBcInNpemVcIjogMjBcbn0iLCJtZXRob2QiOiJHRVQifSx7InBhdGgiOiIvc2t1aW5mby9fc2VhcmNoIiwiYm9keSI6IntcbiAgXCJmcm9tXCI6IDAsXG4gIFwic2l6ZVwiOiAyMCxcbiAgXCJxdWVyeVwiOiB7XG4gICAgXCJicmFuZFwiOiBcIuS4ieaYn1wiXG4gICAgICAgICAgICBcbiAgfVxufSIsIm1ldGhvZCI6IkdFVCJ9LHsicGF0aCI6Ii9za3VpbmZvL19zZWFyY2giLCJib2R5Ijoie1xuICBcImZyb21cIjogMCxcbiAgXCJzaXplXCI6IDIwLFxuICBcInF1ZXJ5XCI6IHtcbiAgICBcIm1hdGNoX2FsbFwiOiB7fVxuICB9XG59IiwibWV0aG9kIjoiR0VUIn1d" />
+      </map>
+    </option>
+    <option name="searchQueryHistory">
+      <map>
+        <entry key="52da155a-7b5e-4a3c-8579-d59a4abc3a71" value="W3sicXVlcnkiOiLkuInmmJ8ifV0=" />
+      </map>
+    </option>
+  </component>
+</project>

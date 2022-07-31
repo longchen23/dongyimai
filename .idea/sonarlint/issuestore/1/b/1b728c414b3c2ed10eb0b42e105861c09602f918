@@ -1,0 +1,10 @@
+
+h
+java:S3776c"RRefactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.(ðù·Ô
+X
+java:S1126Ž"AReplace this if-then-else statement by a single return statement.(æÊˆÆ
+R	java:S125­"<This block of commented-out lines of code should be removed.(¶ù—™
+a
+java:S1128"KRemove this unused import 'io.seata.spring.annotation.GlobalTransactional'.(Ñœ”
+[
+java:S1128"ERemove this unused import 'io.seata.tm.api.GlobalTransactionContext'.(±ÿôÓ

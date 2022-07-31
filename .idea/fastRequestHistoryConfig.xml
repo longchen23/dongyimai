@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestHistoryConfig">
+    <option name="historyList">
+      <list>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.user.controller.UserController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.user.controller.UserController" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8001/api/user/login?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;flag&quot;:true,&quot;code&quot;:20000,&quot;message&quot;:&quot;登陆成功&quot;,&quot;data&quot;:&quot;eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3NTVlNzk1ZS00MmYzLTQxM2ItOTRkZS04YTZmZjZkMGM3NTEiLCJzdWIiOiJ7XCJyb2xlXCI6XCJVU0VSXCIsXCJzdWNjZXNzXCI6XCJTVUNDRVNTXCIsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJpc3MiOiJhZG1pbiIsImlhdCI6MTY1ODIyNjY0OSwiZXhwIjoxNjU4MjMwMjQ5fQ.ivupIKQHQQbxDGWT1qnDzr3_XScZctiJ5mPb9ZCWeOc&quot;}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.user.controller.UserController" />
+          <option name="code" value="503" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.user.controller.UserController" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8001/api/user/login?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no configured error view, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Tue Jul 19 18:30:37 CST 2022&lt;/div&gt;&lt;div&gt;[d8097020-20] There was an unexpected error (type=Service Unavailable, status=503).&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.user.controller.UserController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.user.controller.UserController" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8001/api/user/login?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;flag&quot;:true,&quot;code&quot;:20000,&quot;message&quot;:&quot;登陆成功&quot;,&quot;data&quot;:&quot;eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiNWM0ZTdkNi04YmJlLTRjMDYtYWE0Zi0yZjZlMDIyYTBmOWUiLCJzdWIiOiJ7XCJyb2xlXCI6XCJVU0VSXCIsXCJzdWNjZXNzXCI6XCJTVUNDRVNTXCIsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJpc3MiOiJhZG1pbiIsImlhdCI6MTY1ODIyNDA2MywiZXhwIjoxNjU4MjI3NjYzfQ.hpvf0Vxfhu4NazfZkffaJSfxt5ThMe1OrSeSPKqN5hk&quot;}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.user.controller.UserController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="dongyimai" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.user.controller.UserController" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8001/api/user/login?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;flag&quot;:true,&quot;code&quot;:20000,&quot;message&quot;:&quot;登陆成功&quot;,&quot;data&quot;:&quot;eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIwZjBmMzAwOC00YzlmLTQ1ZTUtOTQ3ZS1iOWJlMTk5MDc2NDEiLCJzdWIiOiJ7XCJyb2xlXCI6XCJVU0VSXCIsXCJzdWNjZXNzXCI6XCJTVUNDRVNTXCIsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJpc3MiOiJhZG1pbiIsImlhdCI6MTY1ODIyMTY5MiwiZXhwIjoxNjU4MjI1MjkyfQ.T9YHP2a4KIW7rh-UWWVX-OA10YuunqHppn59Xx30yiA&quot;}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.user.controller.UserController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="dongyimai" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.user.controller.UserController" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8001/api/user/login?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;flag&quot;:true,&quot;code&quot;:20000,&quot;message&quot;:&quot;登陆成功&quot;,&quot;data&quot;:null}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.user.controller.UserController" />
+          <option name="code" value="404" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="dongyimai" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.user.controller.UserController" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8001/user/login?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no configured error view, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Tue Jul 19 16:38:22 CST 2022&lt;/div&gt;&lt;div&gt;[f3d21a6a-2] There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.user.controller.UserController" />
+          <option name="code" value="404" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="dongyimai" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.user.controller.UserController" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8001/user/login?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no configured error view, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Tue Jul 19 16:38:15 CST 2022&lt;/div&gt;&lt;div&gt;[fed0b3bc-1] There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.user.controller.UserController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="dongyimai" />
+          <option name="method" value="login" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.user.controller.UserController" />
+              <option name="method" value="login" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9007/user/login?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;flag&quot;:true,&quot;code&quot;:20000,&quot;message&quot;:&quot;登陆成功&quot;,&quot;data&quot;:null}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.controller.UploadController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="dongyimai" />
+          <option name="method" value="upload" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;keywords&quot;: &quot;手机&quot;,&#10;  &quot;pageNum&quot;: &quot;1&quot;&#10;}" />
+              <option name="className" value="com.offcn.controller.UploadController" />
+              <option name="method" value="upload" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9005/search&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 35&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;keywords&quot;:&quot;手机&quot;,&quot;pageNum&quot;:&quot;1&quot;}&#13;&#10;" />
+          <option name="response" value="{&quot;total&quot;:731,&quot;totalPages&quot;:37,&quot;categoryList&quot;:[&quot;手机&quot;],&quot;specMap&quot;:{&quot;网络&quot;:[&quot;移动3G&quot;,&quot;联通3G&quot;,&quot;移动4G&quot;,&quot;联通2G&quot;,&quot;联通4G&quot;,&quot;电信4G&quot;,&quot;双卡&quot;],&quot;机身内存&quot;:[&quot;16G&quot;,&quot;32G&quot;,&quot;64G&quot;]},&quot;brandList&quot;:[&quot;三星&quot;,&quot;苹果&quot;,&quot;中国移动&quot;,&quot;联想&quot;,&quot;华为&quot;,&quot;酷派&quot;,&quot;诺基亚&quot;,&quot;飞利浦&quot;,&quot;OPPO&quot;,&quot;HTC&quot;],&quot;rows&quot;:[{&quot;id&quot;:967021,&quot;title&quot;:&quot;TCL 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (i310) 暗夜黑 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt;&quot;,&quot;price&quot;:199.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img14.360buyimg.com/n1/s450x450_jfs/t3532/159/131329856/208385/d2e05067/58004df9Ncaaf71cc.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:27:49.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:27:49.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1027857,&quot;title&quot;:&quot;TCL 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (i310) 纯净白 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt;&quot;,&quot;price&quot;:199.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img14.360buyimg.com/n1/s450x450_jfs/t3532/159/131329856/208385/d2e05067/58004df9Ncaaf71cc.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:27:54.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:27:54.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1305682,&quot;title&quot;:&quot;TCL 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (i310+) 纯净白 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt;&quot;,&quot;price&quot;:249.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img14.360buyimg.com/n1/s450x450_jfs/t3532/159/131329856/208385/d2e05067/58004df9Ncaaf71cc.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:09.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:09.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1305691,&quot;title&quot;:&quot;TCL 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (i310+) 暗夜黑 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt;&quot;,&quot;price&quot;:249.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t3184/273/2723803336/100464/866b4367/57e50361N8647b4a5.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:09.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:09.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1023752,&quot;title&quot;:&quot;飞利浦 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (W8578) 黑色 联通3G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 双卡双待&quot;,&quot;price&quot;:1799.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t3115/243/2876210567/110536/f736e20b/57e7e8dbN1d7d7f90.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:29:11.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:29:11.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;飞利浦&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通3G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通3G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1279805,&quot;title&quot;:&quot;TCL 晚美 智能老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (H916T) 陨石黑 移动3G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt;&quot;,&quot;price&quot;:549.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:29:47.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:29:47.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;移动3G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;移动3G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1279814,&quot;title&quot;:&quot;TCL 晚美 智能老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (H916T) 纯净白 移动3G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt;&quot;,&quot;price&quot;:559.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:29:39.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:29:39.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;移动3G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;移动3G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:830972,&quot;title&quot;:&quot;飞利浦 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (X2560) 深情蓝 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 双卡双待&quot;,&quot;price&quot;:489.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t3115/243/2876210567/110536/f736e20b/57e7e8dbN1d7d7f90.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:30.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:30.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;飞利浦&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:847276,&quot;title&quot;:&quot;飞利浦 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (X2560) 喜庆红 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 双卡双待&quot;,&quot;price&quot;:489.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t3115/243/2876210567/110536/f736e20b/57e7e8dbN1d7d7f90.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:30.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:30.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;飞利浦&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:847278,&quot;title&quot;:&quot;飞利浦 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (X2560) 硬朗黑 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 双卡双待&quot;,&quot;price&quot;:469.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t3115/243/2876210567/110536/f736e20b/57e7e8dbN1d7d7f90.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:09.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:09.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;飞利浦&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:883893,&quot;title&quot;:&quot;联想 MA388 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 星夜黑 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 双卡双待&quot;,&quot;price&quot;:287.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img14.360buyimg.com/n1/s450x450_jfs/t3736/175/107179033/114926/c0bca93e/57ff5de0N8e231194.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:27:49.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:27:49.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;联想&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1158860,&quot;title&quot;:&quot;TCL 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (i330) 暗夜黑 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 双卡双待&quot;,&quot;price&quot;:199.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:29:39.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:29:39.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1158861,&quot;title&quot;:&quot;TCL 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (i330) 琉璃金 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 双卡双待&quot;,&quot;price&quot;:199.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:29:27.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:29:27.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1284050,&quot;title&quot;:&quot;天语 nibiru 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 土星一号 (T1) 黑色 联通3G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt;&quot;,&quot;price&quot;:498.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img13.360buyimg.com/n1/s450x450_jfs/t1720/71/510607417/79729/ea0f438e/55d29ed4Nfa1ebc11.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:55.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:55.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;中国移动&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通3G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通3G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1284053,&quot;title&quot;:&quot;天语 nibiru 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 土星一号 (T1) 白色 联通3G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt;&quot;,&quot;price&quot;:498.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img13.360buyimg.com/n1/s450x450_jfs/t1720/71/510607417/79729/ea0f438e/55d29ed4Nfa1ebc11.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:55.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:55.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;中国移动&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通3G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通3G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1284427,&quot;title&quot;:&quot;TCL 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (I320) 琉璃金 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 双卡双待&quot;,&quot;price&quot;:199.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:30:44.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:30:44.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1284434,&quot;title&quot;:&quot;TCL 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (I320) 月光银 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 双卡双待&quot;,&quot;price&quot;:199.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:32:09.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:32:09.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1284435,&quot;title&quot;:&quot;TCL 老人&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; (I320) 暗夜黑 移动联通2G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt; 双卡双待&quot;,&quot;price&quot;:179.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:30:20.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:30:20.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1231490,&quot;title&quot;:&quot;小米4 白色 联通3G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt;&quot;,&quot;price&quot;:1999.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img14.360buyimg.com/n1/s450x450_jfs/t4135/297/388153057/335769/45cf4be5/58b3fa6eN2602572e.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:33:47.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:33:47.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;小米&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通3G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通3G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1295341,&quot;title&quot;:&quot;OPPO 1100 白色 联通4G&lt;span style=\&quot;color:red\&quot;&gt;手机&lt;/span&gt;&quot;,&quot;price&quot;:1099.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img12.360buyimg.com/n1/s450x450_jfs/t3406/78/398725171/104821/42382f9c/5808a510N9f0ce731.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:55.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:55.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;OPPO&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通4G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通4G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}}]}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.controller.UploadController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="dongyimai" />
+          <option name="method" value="upload" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;keywords&quot;: &quot;手机&quot;,&#10;  &quot;pageNum&quot;: &quot;1&quot;&#10;}" />
+              <option name="className" value="com.offcn.controller.UploadController" />
+              <option name="method" value="upload" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9005/search&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 35&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;keywords&quot;:&quot;手机&quot;,&quot;pageNum&quot;:&quot;1&quot;}&#13;&#10;" />
+          <option name="response" value="{&quot;total&quot;:731,&quot;totalPages&quot;:37,&quot;categoryList&quot;:[&quot;手机&quot;],&quot;specMap&quot;:{&quot;网络&quot;:[&quot;移动3G&quot;,&quot;联通3G&quot;,&quot;移动4G&quot;,&quot;联通2G&quot;,&quot;联通4G&quot;,&quot;电信4G&quot;,&quot;双卡&quot;],&quot;机身内存&quot;:[&quot;16G&quot;,&quot;32G&quot;,&quot;64G&quot;]},&quot;brandList&quot;:[&quot;三星&quot;,&quot;苹果&quot;,&quot;中国移动&quot;,&quot;联想&quot;,&quot;华为&quot;,&quot;酷派&quot;,&quot;诺基亚&quot;,&quot;飞利浦&quot;,&quot;OPPO&quot;,&quot;HTC&quot;],&quot;rows&quot;:[{&quot;id&quot;:967021,&quot;title&quot;:&quot;TCL 老人手机 (i310) 暗夜黑 移动联通2G手机&quot;,&quot;price&quot;:199.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img14.360buyimg.com/n1/s450x450_jfs/t3532/159/131329856/208385/d2e05067/58004df9Ncaaf71cc.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:27:49.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:27:49.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1027857,&quot;title&quot;:&quot;TCL 老人手机 (i310) 纯净白 移动联通2G手机&quot;,&quot;price&quot;:199.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img14.360buyimg.com/n1/s450x450_jfs/t3532/159/131329856/208385/d2e05067/58004df9Ncaaf71cc.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:27:54.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:27:54.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1305682,&quot;title&quot;:&quot;TCL 老人手机 (i310+) 纯净白 移动联通2G手机&quot;,&quot;price&quot;:249.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img14.360buyimg.com/n1/s450x450_jfs/t3532/159/131329856/208385/d2e05067/58004df9Ncaaf71cc.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:09.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:09.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1305691,&quot;title&quot;:&quot;TCL 老人手机 (i310+) 暗夜黑 移动联通2G手机&quot;,&quot;price&quot;:249.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t3184/273/2723803336/100464/866b4367/57e50361N8647b4a5.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:09.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:09.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1023752,&quot;title&quot;:&quot;飞利浦 老人手机 (W8578) 黑色 联通3G手机 双卡双待&quot;,&quot;price&quot;:1799.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t3115/243/2876210567/110536/f736e20b/57e7e8dbN1d7d7f90.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:29:11.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:29:11.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;飞利浦&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通3G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通3G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1279805,&quot;title&quot;:&quot;TCL 晚美 智能老人手机 (H916T) 陨石黑 移动3G手机&quot;,&quot;price&quot;:549.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:29:47.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:29:47.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;移动3G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;移动3G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1279814,&quot;title&quot;:&quot;TCL 晚美 智能老人手机 (H916T) 纯净白 移动3G手机&quot;,&quot;price&quot;:559.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:29:39.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:29:39.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;移动3G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;移动3G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:830972,&quot;title&quot;:&quot;飞利浦 老人手机 (X2560) 深情蓝 移动联通2G手机 双卡双待&quot;,&quot;price&quot;:489.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t3115/243/2876210567/110536/f736e20b/57e7e8dbN1d7d7f90.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:30.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:30.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;飞利浦&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:847276,&quot;title&quot;:&quot;飞利浦 老人手机 (X2560) 喜庆红 移动联通2G手机 双卡双待&quot;,&quot;price&quot;:489.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t3115/243/2876210567/110536/f736e20b/57e7e8dbN1d7d7f90.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:30.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:30.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;飞利浦&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:847278,&quot;title&quot;:&quot;飞利浦 老人手机 (X2560) 硬朗黑 移动联通2G手机 双卡双待&quot;,&quot;price&quot;:469.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t3115/243/2876210567/110536/f736e20b/57e7e8dbN1d7d7f90.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:09.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:09.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;飞利浦&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:883893,&quot;title&quot;:&quot;联想 MA388 老人手机 星夜黑 移动联通2G手机 双卡双待&quot;,&quot;price&quot;:287.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img14.360buyimg.com/n1/s450x450_jfs/t3736/175/107179033/114926/c0bca93e/57ff5de0N8e231194.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:27:49.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:27:49.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;联想&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1158860,&quot;title&quot;:&quot;TCL 老人手机 (i330) 暗夜黑 移动联通2G手机 双卡双待&quot;,&quot;price&quot;:199.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:29:39.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:29:39.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1158861,&quot;title&quot;:&quot;TCL 老人手机 (i330) 琉璃金 移动联通2G手机 双卡双待&quot;,&quot;price&quot;:199.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:29:27.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:29:27.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1284050,&quot;title&quot;:&quot;天语 nibiru 老人手机 土星一号 (T1) 黑色 联通3G手机&quot;,&quot;price&quot;:498.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img13.360buyimg.com/n1/s450x450_jfs/t1720/71/510607417/79729/ea0f438e/55d29ed4Nfa1ebc11.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:55.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:55.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;中国移动&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通3G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通3G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1284053,&quot;title&quot;:&quot;天语 nibiru 老人手机 土星一号 (T1) 白色 联通3G手机&quot;,&quot;price&quot;:498.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img13.360buyimg.com/n1/s450x450_jfs/t1720/71/510607417/79729/ea0f438e/55d29ed4Nfa1ebc11.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:55.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:55.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;中国移动&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通3G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通3G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1284427,&quot;title&quot;:&quot;TCL 老人手机 (I320) 琉璃金 移动联通2G手机 双卡双待&quot;,&quot;price&quot;:199.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:30:44.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:30:44.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1284434,&quot;title&quot;:&quot;TCL 老人手机 (I320) 月光银 移动联通2G手机 双卡双待&quot;,&quot;price&quot;:199.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:32:09.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:32:09.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1284435,&quot;title&quot;:&quot;TCL 老人手机 (I320) 暗夜黑 移动联通2G手机 双卡双待&quot;,&quot;price&quot;:179.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:30:20.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:30:20.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通2G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通2G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1231490,&quot;title&quot;:&quot;小米4 白色 联通3G手机&quot;,&quot;price&quot;:1999.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img14.360buyimg.com/n1/s450x450_jfs/t4135/297/388153057/335769/45cf4be5/58b3fa6eN2602572e.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:33:47.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:33:47.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;小米&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通3G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通3G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}},{&quot;id&quot;:1295341,&quot;title&quot;:&quot;OPPO 1100 白色 联通4G手机&quot;,&quot;price&quot;:1099.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img12.360buyimg.com/n1/s450x450_jfs/t3406/78/398725171/104821/42382f9c/5808a510N9f0ce731.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:28:55.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:28:55.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;OPPO&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;联通4G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;联通4G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}}]}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.controller.UploadController" />
+          <option name="code" value="500" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="dongyimai" />
+          <option name="method" value="upload" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;keywords&quot;: &quot;手机&quot;&#10;}" />
+              <option name="className" value="com.offcn.controller.UploadController" />
+              <option name="method" value="upload" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9005/search&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 21&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;keywords&quot;:&quot;手机&quot;}&#13;&#10;" />
+          <option name="response" value="{&quot;timestamp&quot;:&quot;2022-07-14T07:25:24.372+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/search&quot;}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.controller.UploadController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="dongyimai" />
+          <option name="method" value="upload" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;keywords&quot;: &quot;手机&quot;,&#10;  &quot;category&quot;: &quot;手机&quot;,&#10;  &quot;pageNum&quot;: &quot;1&quot;,&#10;  &quot;brand&quot;: &quot;TCL&quot;,&#10;  &quot;spec_机身内存&quot;: &quot;16G&quot;,&#10;  &quot;price&quot;: &quot;600-1000&quot;&#10;}" />
+              <option name="className" value="com.offcn.controller.UploadController" />
+              <option name="method" value="upload" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9005/search&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 114&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;keywords&quot;:&quot;手机&quot;,&quot;price&quot;:&quot;600-1000&quot;,&quot;spec_机身内存&quot;:&quot;16G&quot;,&quot;category&quot;:&quot;手机&quot;,&quot;pageNum&quot;:&quot;1&quot;,&quot;brand&quot;:&quot;TCL&quot;}&#13;&#10;" />
+          <option name="response" value="{&quot;total&quot;:1,&quot;totalPages&quot;:1,&quot;categoryList&quot;:[&quot;手机&quot;],&quot;specMap&quot;:{&quot;网络&quot;:[&quot;移动3G&quot;,&quot;联通3G&quot;,&quot;移动4G&quot;,&quot;联通2G&quot;,&quot;联通4G&quot;,&quot;电信4G&quot;,&quot;双卡&quot;],&quot;机身内存&quot;:[&quot;16G&quot;,&quot;32G&quot;,&quot;64G&quot;]},&quot;brandList&quot;:[&quot;三星&quot;,&quot;苹果&quot;,&quot;中国移动&quot;,&quot;联想&quot;,&quot;华为&quot;,&quot;酷派&quot;,&quot;诺基亚&quot;,&quot;飞利浦&quot;,&quot;OPPO&quot;,&quot;HTC&quot;],&quot;rows&quot;:[{&quot;id&quot;:1260714,&quot;title&quot;:&quot;TCL (S850L) 16GB 耀目红 电信4G手机&quot;,&quot;price&quot;:759.0,&quot;num&quot;:99999,&quot;image&quot;:&quot;http://img11.360buyimg.com/n1/s450x450_jfs/t2278/328/1482029120/347965/7755349f/565e97aaN5710a07d.jpg&quot;,&quot;status&quot;:&quot;1&quot;,&quot;createTime&quot;:&quot;2015-03-08T13:30:44.000+00:00&quot;,&quot;updateTime&quot;:&quot;2015-03-08T13:30:44.000+00:00&quot;,&quot;isDefault&quot;:null,&quot;goodsId&quot;:1,&quot;categoryId&quot;:560,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;,&quot;spec&quot;:&quot;{\&quot;机身内存\&quot;:\&quot;16G\&quot;,\&quot;网络\&quot;:\&quot;电信4G\&quot;}&quot;,&quot;specMap&quot;:{&quot;网络&quot;:&quot;电信4G&quot;,&quot;机身内存&quot;:&quot;16G&quot;}}]}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.controller.UploadController" />
+          <option name="code" value="500" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="dongyimai" />
+          <option name="method" value="upload" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;keywords&quot;: &quot;手机&quot;,&#10;  &quot;category&quot;: &quot;手机&quot;,&#10;  &quot;brand&quot;: &quot;TCL&quot;,&#10;  &quot;spec_机身内存&quot;: &quot;16G&quot;,&#10;  &quot;price&quot;: &quot;600-1000&quot;&#10;}" />
+              <option name="className" value="com.offcn.controller.UploadController" />
+              <option name="method" value="upload" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9005/search&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 100&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;keywords&quot;:&quot;手机&quot;,&quot;price&quot;:&quot;600-1000&quot;,&quot;spec_机身内存&quot;:&quot;16G&quot;,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;}&#13;&#10;" />
+          <option name="response" value="{&quot;timestamp&quot;:&quot;2022-07-14T07:01:40.250+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/search&quot;}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.controller.UploadController" />
+          <option name="code" value="500" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="dongyimai" />
+          <option name="method" value="upload" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;keywords&quot;: &quot;手机&quot;,&#10;  &quot;category&quot;: &quot;手机&quot;,&#10;  &quot;brand&quot;: &quot;TCL&quot;,&#10;  &quot;spec_机身内存&quot;: &quot;16G&quot;,&#10;  &quot;price&quot;: &quot;600-1000&quot;&#10;}" />
+              <option name="className" value="com.offcn.controller.UploadController" />
+              <option name="method" value="upload" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9005/search&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 100&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;keywords&quot;:&quot;手机&quot;,&quot;price&quot;:&quot;600-1000&quot;,&quot;spec_机身内存&quot;:&quot;16G&quot;,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;}&#13;&#10;" />
+          <option name="response" value="{&quot;timestamp&quot;:&quot;2022-07-14T07:01:23.115+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/search&quot;}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.controller.UploadController" />
+          <option name="enableEnv" value="java8" />
+          <option name="enableProject" value="dongyimai" />
+          <option name="method" value="upload" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;keywords&quot;: &quot;手机&quot;,&#10;  &quot;category&quot;: &quot;手机&quot;,&#10;  &quot;brand&quot;: &quot;TCL&quot;,&#10;  &quot;spec_机身内存&quot;: &quot;16G&quot;,&#10;  &quot;price&quot;: &quot;600-1000&quot;&#10;}" />
+              <option name="className" value="com.offcn.controller.UploadController" />
+              <option name="method" value="upload" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhsot:9005/search&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 100&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;keywords&quot;:&quot;手机&quot;,&quot;price&quot;:&quot;600-1000&quot;,&quot;spec_机身内存&quot;:&quot;16G&quot;,&quot;category&quot;:&quot;手机&quot;,&quot;brand&quot;:&quot;TCL&quot;}&#13;&#10;" />
+          <option name="response" value="UnknownHostException: localhsot" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.controller.UploadController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="localhost" />
+          <option name="enableProject" value="offcn_pc" />
+          <option name="method" value="upload" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.controller.UploadController" />
+              <option name="method" value="upload" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;file&quot;,&quot;type&quot;:&quot;File&quot;,&quot;value&quot;:&quot;D:/chome下载/touxiang.jpg&quot;}]" />
+              <option name="originUrl" value="/upload" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/upload" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002/upload&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;flag&quot;:true,&quot;code&quot;:20000,&quot;message&quot;:&quot;http://192.168.235.129:8080/group1/M00/00/00/wKjrgWLHDoeALNTfAAJynQwcAFA128.jpg&quot;,&quot;data&quot;:null}" />
+          <option name="url" value="/upload" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.controller.UploadController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="localhost" />
+          <option name="enableProject" value="offcn_pc" />
+          <option name="method" value="upload" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.controller.UploadController" />
+              <option name="method" value="upload" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;file&quot;,&quot;type&quot;:&quot;File&quot;,&quot;value&quot;:&quot;D:/chome下载/touxiang.jpg&quot;}]" />
+              <option name="originUrl" value="/upload" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/upload" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002/upload&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;flag&quot;:true,&quot;code&quot;:20000,&quot;message&quot;:&quot;http://192.168.235.129:8080/group1/M00/00/00/wKjrgWLHDluAP0BnAAJynQwcAFA044.jpg&quot;,&quot;data&quot;:null}" />
+          <option name="url" value="/upload" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.controller.UploadController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="localhost" />
+          <option name="enableProject" value="offcn_pc" />
+          <option name="method" value="upload" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.controller.UploadController" />
+              <option name="method" value="upload" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;file&quot;,&quot;type&quot;:&quot;File&quot;,&quot;value&quot;:&quot;D:/chome下载/touxiang.jpg&quot;}]" />
+              <option name="originUrl" value="/upload" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/upload" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002/upload&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;flag&quot;:true,&quot;code&quot;:20000,&quot;message&quot;:&quot;http://192.168.235.129:8080/group1/M00/00/00/wKjrgWLHDfSAXi4eAAJynQwcAFA726.jpg&quot;,&quot;data&quot;:null}" />
+          <option name="url" value="/upload" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.controller.UploadController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="localhost" />
+          <option name="enableProject" value="offcn_pc" />
+          <option name="method" value="upload" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.controller.UploadController" />
+              <option name="method" value="upload" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;file&quot;,&quot;type&quot;:&quot;File&quot;,&quot;value&quot;:&quot;D:/chome下载/touxiang.jpg&quot;}]" />
+              <option name="originUrl" value="/upload" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/upload" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9002/upload&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;flag&quot;:true,&quot;code&quot;:20000,&quot;message&quot;:&quot;http://192.168.235.129:8080/group1/M00/00/00/wKjrgWLHDdCAKIifAAJynQwcAFA557.jpg&quot;,&quot;data&quot;:null}" />
+          <option name="url" value="/upload" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.offcn.controller.UploadController" />
+          <option name="code" value="404" />
+          <option name="enableEnv" value="localhost" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="upload" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.offcn.controller.UploadController" />
+              <option name="method" value="upload" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;file&quot;,&quot;type&quot;:&quot;File&quot;,&quot;value&quot;:&quot;D:/chome下载/touxiang.jpg&quot;}]" />
+              <option name="originUrl" value="/upload" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/upload" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://192.168.235.129:8080/upload&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="&lt;html&gt;&#13;&#10;&lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#13;&#10;&lt;body bgcolor=&quot;white&quot;&gt;&#13;&#10;&lt;center&gt;&lt;h1&gt;404 Not Found&lt;/h1&gt;&lt;/center&gt;&#13;&#10;&lt;hr&gt;&lt;center&gt;nginx/1.9.11&lt;/center&gt;&#13;&#10;&lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;&lt;!-- a padding to disable MSIE and Chrome friendly error page --&gt;&#13;&#10;&lt;!-- a padding to disable MSIE and Chrome friendly error page --&gt;&#13;&#10;&lt;!-- a padding to disable MSIE and Chrome friendly error page --&gt;&#13;&#10;&lt;!-- a padding to disable MSIE and Chrome friendly error page --&gt;&#13;&#10;&lt;!-- a padding to disable MSIE and Chrome friendly error page --&gt;&#13;&#10;&lt;!-- a padding to disable MSIE and Chrome friendly error page --&gt;&#13;&#10;" />
+          <option name="url" value="/upload" />
+        </ResponseHistory>
+      </list>
+    </option>
+  </component>
+</project>

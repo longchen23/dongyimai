@@ -1,0 +1,13 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: sms
+  rabbitmq:
+    host: 192.168.235.129
+    port: 5672
+    username: guest
+    password: guest
+sms:
+  appcode: 5d3bdf2014c14a9686e2c5481591601d
+  tpl_id: TP1711063    # 默认模板

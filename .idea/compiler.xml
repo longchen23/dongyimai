@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dongyimai-user-service" />
+        <module name="dongyimai-sms-service" />
+        <module name="dongyimai-search-service-api" />
+        <module name="dongyimai-seckill-service-api" />
+        <module name="dongyimai-sellergoods-service" />
+        <module name="dongyimai-user-service-api" />
+        <module name="dongyimai-user-oauth" />
+        <module name="dongyimai-order-service-api" />
+        <module name="dongyimai-common" />
+        <module name="dongyimai-order-service" />
+        <module name="dongyimai-item-web" />
+        <module name="dongyimai-file-service" />
+        <module name="dongyimai-content-service-api" />
+        <module name="dongyimai-gateway-web" />
+        <module name="dongyimai-eureka" />
+        <module name="dongyimai-search-web" />
+        <module name="dongyimai-pay-service-api" />
+        <module name="dongyimai-pay-service" />
+        <module name="dongyimaiMakeCode" />
+        <module name="dongyimai-canal-service" />
+        <module name="dongyimai-content-service" />
+        <module name="dongyimai-sellergoods-service-api" />
+        <module name="dongyimai-search-service" />
+        <module name="dongyimai-item-web-api" />
+        <module name="dongyimai-common-db" />
+        <module name="dongyimai-transaction-seata" />
+        <module name="dongyimai-seckill-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
