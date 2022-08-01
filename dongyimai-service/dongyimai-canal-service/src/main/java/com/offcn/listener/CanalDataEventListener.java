@@ -54,7 +54,7 @@ public class CanalDataEventListener {
         //判断 如果是删除  则获取beforlist
         if (eventType == CanalEntry.EventType.DELETE) {
             for (CanalEntry.Column column : rowData.getBeforeColumnsList()) {
-                if (column.getName().equalsIgnoreCase("category_id")) {
+                if ("category_id".equalsIgnoreCase(column.getName())) {
                     categoryId = column.getValue();
                     return categoryId;
                 }
@@ -62,7 +62,7 @@ public class CanalDataEventListener {
         } else {
             //判断 如果是添加 或者是更新 获取afterlist
             for (CanalEntry.Column column : rowData.getAfterColumnsList()) {
-                if (column.getName().equalsIgnoreCase("category_id")) {
+                if ("category_id".equalsIgnoreCase(column.getName())) {
                     categoryId = column.getValue();
                     return categoryId;
                 }

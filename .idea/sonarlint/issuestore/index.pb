@@ -41,11 +41,15 @@ ndongyimai-service/dongyimai-order-service/src/main/java/com/offcn/order/service
 Ydongyimai-service/dongyimai-user-service/src/main/java/com/offcn/user/dao/UserMapper.java,3\5\3548a3568843e952e41614761f91092b81784ab6
 Š
 Zdongyimai-service/dongyimai-user-service/src/main/java/com/offcn/user/UserApplication.java,9\1\91fe5ffd5f5e89156a285028bb2bb4524171ce3e
-—
-gdongyimai-service/dongyimai-user-service/src/main/java/com/offcn/user/service/impl/UserServiceImpl.java,1\b\1b728c414b3c2ed10eb0b42e105861c09602f918
 “
 cdongyimai-service/dongyimai-user-service/src/main/java/com/offcn/user/service/ProvincesService.java,e\b\eb89b3200a0faf0139a6de8c7191e25fa23628f9
 Ž
 ^dongyimai-service/dongyimai-user-service/src/main/java/com/offcn/user/service/UserService.java,a\7\a7fca3bec2e26defbadc5f51c1936e458ddd0401
 ‡
 Wdongyimai-transaction-seata/src/main/java/com/offcn/config/DataSourceConfiguration.java,d\7\d7d9857547f25e925b07380dce9ec7ce579efadf
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+>
+.gitattributes,2\4\24139dae656713ba861751fb2c2ac38839349a7a
+—
+gdongyimai-service/dongyimai-user-service/src/main/java/com/offcn/user/service/impl/UserServiceImpl.java,1\b\1b728c414b3c2ed10eb0b42e105861c09602f918
