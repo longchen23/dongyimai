@@ -31,8 +31,6 @@ a
 0dongyimai-service/dongyimai-user-service/pom.xml,e\a\eaba9335ee4d37b43a0695c94fe6535a0e406d90
 S
 #dongyimai-transaction-seata/pom.xml,6\0\60f321bef93c051bc7a5abcdccdbf2d18eff9816
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 š
 jdongyimai-service/dongyimai-order-service/src/main/java/com/offcn/order/service/impl/OrderServiceImpl.java,5\8\583b3d074bfe46ae2781d7a06e0d1de1c513910f
 ™
